@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sushiboat/static/css/main.db31621d.css",
+    "main.js": "/sushiboat/static/js/main.c4dbc9ae.js",
+    "index.html": "/sushiboat/index.html",
+    "main.db31621d.css.map": "/sushiboat/static/css/main.db31621d.css.map",
+    "main.c4dbc9ae.js.map": "/sushiboat/static/js/main.c4dbc9ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db31621d.css",
+    "static/js/main.c4dbc9ae.js"
+  ]
+}
