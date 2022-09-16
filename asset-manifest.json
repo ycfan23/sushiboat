@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sushiboat/static/css/main.2230d343.css",
+    "main.css": "/sushiboat/static/css/main.4969dcd2.css",
     "main.js": "/sushiboat/static/js/main.e14abe0a.js",
     "static/media/sailboat_icon.png": "/sushiboat/static/media/sailboat_icon.5749179854dc08092274.png",
     "index.html": "/sushiboat/index.html",
-    "main.2230d343.css.map": "/sushiboat/static/css/main.2230d343.css.map",
+    "main.4969dcd2.css.map": "/sushiboat/static/css/main.4969dcd2.css.map",
     "main.e14abe0a.js.map": "/sushiboat/static/js/main.e14abe0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2230d343.css",
+    "static/css/main.4969dcd2.css",
     "static/js/main.e14abe0a.js"
   ]
 }
