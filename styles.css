@@ -124,6 +124,15 @@ body {
   transform: translateY(15px);
 }
 
+/* about */
+
+#about {
+  display: flex;
+}
+
+
+/* media query */
+
 @media (max-width: 800px) {
   .menuBtn {
     display: flex;
