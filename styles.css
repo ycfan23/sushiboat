@@ -23,8 +23,9 @@ body {
 }
 
 .nav-name {
-  font-size: 1.5rem;
-  margin: 1.5rem;
+  font-size: 2rem;
+  margin: 1.1rem;
+  font-family: 'Papyrus' , Arial, Helvetica, sans-serif;
 }
 
 .nav-list ul {
