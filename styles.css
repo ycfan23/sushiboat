@@ -28,6 +28,10 @@ body {
   font-family: 'Papyrus' , Arial, Helvetica, sans-serif;
 }
 
+.nav-name span {
+  color: crimson;
+}
+
 .nav-list ul {
   display: flex;
 }
