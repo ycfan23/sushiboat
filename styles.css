@@ -214,10 +214,17 @@ body {
 
 #location {
   display: flex;
-  width: 80%;
   min-height: 500px;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
+}
+
+.address {
+  padding: 3px;
+  line-height: 1.5rem;
+  min-width: 20%;
+}
+.googlemap{
+  min-width: 100%;
 }
 
 /* media query */
