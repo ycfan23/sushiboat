@@ -1,0 +1,23 @@
+#about {
+  display: flex;
+  padding: 1rem 1rem;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.about-img {
+  min-width: 50%;
+
+}
+.about-img img {
+  border-radius: 10px;
+  height: auto;
+  display: block;
+  width: 100%;
+}
+
+.about-text {
+  margin-left: 1rem;
+  line-height: 1.5rem;
+  min-width: 50%;
+}

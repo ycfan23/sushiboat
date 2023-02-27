@@ -1,0 +1,116 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.nav-name {
+  font-size: 2rem;
+  margin: 1.1rem;
+  font-family: 'Papyrus' , Arial, Helvetica, sans-serif;
+}
+
+.nav-name span {
+  color: crimson;
+}
+
+.nav-list ul {
+  display: flex;
+}
+
+.nav-list li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 1.3em 1em;
+  padding: 0;
+}
+
+.nav-list ul a {
+  padding: .5em .8em;
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-list ul a::before,
+.nav-list ul a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.nav-list ul a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transform: translate(-100%, 50%);
+}
+
+.nav-list ul a::after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #fff;
+  border-left: 3px solid #fff;
+  transform: translate(100%, -50%)
+}
+
+.nav-list ul a:hover:before,
+.nav-list ul a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.nav-list ul a:hover {
+  color: #fff;
+}
+
+/* nav hamburger menu */
+.menuBtn {
+  position: absolute;
+  top: -1rem;
+  right: .75rem;
+  display: none;
+  height: 80px;
+  width: 80px;
+  margin: 1rem;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.menuBtn-burger {
+  height: 3px;
+  width: 50px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.menuBtn-burger::before,
+.menuBtn-burger::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 50px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.menuBtn-burger::before {
+  transform: translateY(-15px);
+}
+
+.menuBtn-burger::after {
+  transform: translateY(15px);
+}

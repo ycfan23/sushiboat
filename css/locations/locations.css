@@ -1,0 +1,36 @@
+#location {
+  display: flex;
+  /* flex-direction: column; */
+  /* overflow: hidden; */
+  justify-content: space-evenly;
+  /* border: 1px solid white; */
+  height: 40%;
+}
+
+#location > div
+{
+  width: 33%;
+}
+
+/* .address {
+  padding: 10px;
+  line-height: 1.5rem;
+  min-width: 20%;
+  /* text-align: center;
+  align-items: center;
+} */
+
+
+#location h3 {
+  font-size: 1.4rem;
+}
+
+.address, .hours, .number
+{
+  /* border: 1px solid yellow; */
+  padding: 10px;
+  margin: 2rem 0;
+  text-align: center;
+  /* min-width: 40%; */
+  min-height: 100%;
+}
